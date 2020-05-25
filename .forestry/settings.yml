@@ -6,6 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: CONTENU
+- type: directory
+  path: article
+  label: Article
+  create: documents
+  match: "**/*"
+  templates:
+  - blog-post
 - type: heading
   label: Paramètres
 upload_dir: uploads
