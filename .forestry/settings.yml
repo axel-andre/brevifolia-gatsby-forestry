@@ -9,6 +9,8 @@ sections:
   label: Posts
   create: documents
   match: "**/*"
+  templates:
+  - blog-post
 - type: heading
   label: CONTENU
 - type: directory
