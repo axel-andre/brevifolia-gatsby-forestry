@@ -8,10 +8,10 @@ sections:
   label: CONTENU
 - type: heading
   label: Paramètres
-upload_dir: content/images
-public_path: "/content/images"
+upload_dir: uploads
+public_path: served
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_output_directory: public
